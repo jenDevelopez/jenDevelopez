@@ -12,3 +12,7 @@ function proceso_actualizacion(){
     git merge
     git checkout -b "$2"
 }
+
+function cambio(){
+    git checkout "$1"
+}
