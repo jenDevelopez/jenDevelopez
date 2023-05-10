@@ -10,5 +10,5 @@ function proceso_actualizacion(){
     git branch -D "$2"
     git fetch
     git merge
-    git checkout -b "$2g"
+    git checkout -b "$2"
 }
