@@ -14,5 +14,5 @@ function proceso_actualizacion(){
 }
 
 function cambio(){
-    git checkout "$1"c
+    git checkout "$1"
 }
